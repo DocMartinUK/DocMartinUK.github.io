@@ -1,0 +1,313 @@
+* {
+    font-family: Lato, Arial, sans-serif;
+    font-size: 20px;
+    color: seashell;
+    background-color:black ;
+    opacity: 0.9;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 3rem;
+   }
+
+   h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    background-color: white;
+   }
+
+   h4, strong{
+    text-align: center;
+    font-size: 1.25rem;
+    color: black;
+    background-color: white;
+   }
+
+   h6 {
+    text-align: left;
+    font-size: 0.75rem;
+   }
+
+/* ========= Logo and Nav =======================================*/
+  .header {
+    display: block; 
+    position: fixed;  /* keep header at top of screen */
+    z-index: 10; /* keep in front of all other elements */
+
+    min-height: 69px;
+    width: 100%;
+    border-bottom: 5px solid seashell;
+    /* border: 10px solid yellowgreen;  /*debug*/
+   }
+
+  .logo {
+    margin: 0rem 0.5rem ; /* 10px margin left and right of the logo */
+    width: 10rem; /* size you want the logo to be */ 
+    float: left; /* left justify logo in header container */
+    /* border: 10px solid orange;  /*debug*/
+  }
+
+  img {
+    display: block; 
+    width: 100%; /* fill the .logo container with the image file width-wise */
+    height: auto; /* maintain the aspect ratio by auto-sizing the height */ 
+  }
+
+  .menu {
+    float: right; /* move all the menu items to right of screen */
+    margin: 40px 5% ;  /* push menu options down to middle of header*/
+    padding: 20px 20px;  /* add 10px gap around menu items */
+    list-style-type: none;  /* remove bullets from UL items / menu items */
+  }
+
+  .menu li {
+    display: inline-block; /* dont wrap menu items onto new lines */
+    margin: auto 10px;   /* space out the menu items using 10opx gap */ 
+    text-decoration: underline;  
+  }
+
+/* =================================================================== */
+
+
+
+
+
+
+
+
+/* ========= SECTION 2 :  About Us =======================================*/
+  
+   .Aboutuscontainer {
+
+    /* border: 10px solid greenyellow;  /*debug*/
+
+    display: inline-flex;
+    flex-direction: column; /* ensure H2 and H4 appear above each other and not side by side */
+  
+    background-image: url("../band\ on\ stage.jpeg"); 
+    /* background-image: url("../dublincastle.jpeg"); */
+    background-repeat: no-repeat; /* dont tile the image if its smaller than the container */
+    background-position: center; /* centre image vertically */ 
+    background-size:auto; /* ensure background image is always fully visible */ 
+
+    height:  auto; /* keep background image proportional */
+    width: 95%;
+    margin: 5px 5px;
+    padding: 20px ;
+    
+    align-items: bottom; /* centre everything in the background image */
+    justify-content: center;
+    text-align: center;
+
+    border-bottom: 5px solid seashell;
+ 
+   }
+
+  .aboutus {   
+    /* border: 10px solid orange;  /*debug*/
+    /* background-color: transparent;  /* show the background image behind the text */ 
+    display: block; /* make the text box fill the width of the screen */
+    width: 60%; /* width of the Ska Face description box */
+    background: black; /* make gaps between text blocks transparent */
+    margin-top: 40%; /* how far from the header you want the image to start */
+  }
+
+  .aboutus img {
+    /* ska face logo */
+    width: 75%; /* of the container - black box - it is in */
+    margin: 0 auto; /* center the image */
+  }
+
+
+
+  /* ========= SECTION 2a :  experience =======================================*/
+  
+  .experiencecontainer {
+
+    /* border: 10px solid greenyellow;  /*debug*/
+
+    display: inline-flex;
+    flex-direction: column; /* ensure H2 and H4 appear above each other and not side by side */
+  
+    background-image: url("../stanleypark\ back\ of\ the\ crowd\ view\ of\ the\ band.jpg");
+    /* background-image: url("../bandstand\ crowd\ verywide.jpg"); /**/
+    background-repeat: no-repeat; /* dont tile the image if its smaller than the container */
+    background-position: center; /* centre image vertically */ 
+    background-size: auto; /* ensure background image is always fully visible */ 
+    
+    height:  35rem; /* keep background image proportional */
+    width: 95%;
+    margin: 5rem 0.25rem ;
+    padding: 1rem;
+    
+    
+    /* align-items: center; /* centre everything in the background image */
+    /* justify-content:center; /**/
+    text-align: center;
+    border-bottom: 5px solid seashell;
+ 
+   }
+
+  .experience {   
+    /*  == text box in experience section == */
+    /* border: 10px solid orange;  /*debug*/
+    width: 80%; /* width of the text box */
+    background: white; /* make gaps between text blocks transparent */
+    margin-top: -15rem; /**/
+  }
+
+  .experience img {
+    width: 75%; /* of the container - black box - it is in */
+    }
+
+    .experience h4, strong{
+      /* border: 10px solid red;  /*debug*/
+      padding: 0px 10px;
+    }
+
+/* =================================================================== */
+
+
+
+
+
+
+
+
+/* ========= SECTION 3 : Meet the Band ============================ */
+  
+ .MTBcontainer {
+  /* border: 10px solid grey;    /* debug */
+  display: block;
+  justify-content: space-around;
+  width: 90%;
+  margin: 50px auto; /* auto adjust margins to centre container */
+}
+
+.MTBcontainer H3 {
+  background-color: black;
+  color: white;
+}
+
+.MTBitem {
+  /* border: 5px solid green;  /* debug */
+  /* display: inline-block;*/
+  display: inline-flex;
+  flex-flow: column ; 
+  margin: 0.5rem 0.5rem;
+  justify-content: center;
+  height: 20rem;
+  width: 15rem;
+}
+
+.MTBitem img {
+  /* border: 5px solid blue;  /* debug */
+  height: 14rem;
+  width: 14rem;
+  object-fit:cover; 
+  text-align: center;
+  
+}
+
+.MTBitem H4, h5 {
+  /* border: 5px solid rebeccapurple;  /* debug */
+  margin: 6px;
+  color: white;
+  background-color: black;
+}
+
+
+/* #JP {
+    border: 5px solid yellow;  /* debug */
+ /*  align-content:center;
+}
+*/
+
+
+/* =================================================================== */
+
+
+
+
+
+/* ========= SECTION 4 : Merch ============================ */
+  
+ .merchcontainer {
+
+  display: inline-block;
+  width: 1000px;
+  
+  /* background-image: url("../bandstand\ scooters.jpeg"); /**/
+  /* background-image: url("../bandstand\ crowd\ verywide.jpg"); /**/
+  background-image: url("../dublincastle.jpeg"); /**/
+  height: 40rem; /* make background image set size */
+  width: 100%;
+  margin: 0px 10px;
+
+  background-position: center; /* centre image vertically */ 
+  background-repeat: no-repeat;
+  align-items: centre; /* centre everything in the background image */
+  justify-content: center;
+  text-align: center;
+  border-top: 5px solid seashell;
+
+  /* border: 5px solid yellow;  /* debug */
+ }
+
+ .merchcontainer #Merch {
+  /* text box with "Merch" title in */
+  /* background: none; /* make text transparent */
+  /* border: 5px solid greenyellow;  /* debug */
+ }
+
+.merchrow {
+  /* container row that all the individual text boxes are shown in */
+  background: none; /* make gaps between items transparent */
+  margin: 20rem 5%;
+  /* border: 5px solid green;  /* debug */
+}
+
+
+ .merch {
+  /* individual text boxes */
+  display: inline-block; /* make items display side by side */
+  max-width: 20rem; /* make them all a uniform width */
+  min-height: 3rem;
+  padding: 5px;
+  background:black; 
+  text-decoration:solid;
+  /* border: 5px solid red;  /* debug */
+ }
+/* =================================================================== */
+
+
+
+
+/* ========= SECTION 5 : trailer and copyright ============================ */
+  
+.trailer {
+  /* border: 5px solid red;  /* debug */
+  /*height: 200px; */
+  width: 15rem; 
+  justify-content: center;
+  display: inline-block;
+}
+
+.icon {
+  /* border: 5px solid blueviolet;  /* debug */
+  /*max-height: 5rem;*/
+  justify-self: center;
+}
+
+.copyright h5 {
+  /* border: 5px solid yellow;  /* debug */
+  text-align: left;
+  margin: auto;
+  font-size: 0.85rem;
+}
+ 
