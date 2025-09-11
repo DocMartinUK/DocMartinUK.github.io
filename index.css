@@ -89,7 +89,7 @@
     display: inline-flex;
     flex-direction: column; /* ensure H2 and H4 appear above each other and not side by side */
   
-    background-image: url("../band\ on\ stage.jpeg"); 
+    background-image: url("./band\ on\ stage.jpeg"); 
     /* background-image: url("../dublincastle.jpeg"); */
     background-repeat: no-repeat; /* dont tile the image if its smaller than the container */
     background-position: center; /* centre image vertically */ 
@@ -134,7 +134,7 @@
     display: inline-flex;
     flex-direction: column; /* ensure H2 and H4 appear above each other and not side by side */
   
-    background-image: url("../stanleypark\ back\ of\ the\ crowd\ view\ of\ the\ band.jpg");
+    background-image: url("./stanleypark\ back\ of\ the\ crowd\ view\ of\ the\ band.jpg");
     /* background-image: url("../bandstand\ crowd\ verywide.jpg"); /**/
     background-repeat: no-repeat; /* dont tile the image if its smaller than the container */
     background-position: center; /* centre image vertically */ 
@@ -244,7 +244,7 @@
   
   /* background-image: url("../bandstand\ scooters.jpeg"); /**/
   /* background-image: url("../bandstand\ crowd\ verywide.jpg"); /**/
-  background-image: url("../dublincastle.jpeg"); /**/
+  background-image: url("./dublincastle.jpeg"); /**/
   height: 40rem; /* make background image set size */
   width: 100%;
   margin: 0px 10px;
