@@ -354,6 +354,17 @@ img {
     background-image: url("../mikey.jpeg");
 }
 
+
+#liz {
+    background-image: url("../sophia.jpeg");
+}
+
+
+#dan {
+    background-image: url("../little_dan.jpeg");
+}
+
+
 /* =================================================================== */
 
 
@@ -440,4 +451,5 @@ a {
     margin: auto;
     font-size: 0.85rem;
 }
+
  
